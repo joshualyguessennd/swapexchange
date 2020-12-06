@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Ruby26-x64\bin;C:\Users\joshh\.windows-build-tools\python27\;C:\Python39\Scripts;C:\Users\joshh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joshh\Desktop\flutter\bin;C:\Users\joshh\AppData\Roaming\npm;C:\Users\joshh\.dotnet\tools;C:\Users\joshh\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Users\joshh\AppData\Local\Programs\IPFS Desktop\resources\app.asar.unpacked\src\ipfs-on-path\scripts\bin-win;C:\Program Files (x86)\GitHub CLI\
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.19.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\joshh\Desktop\blockchain\core\package.json: Unexpected token } in JSON at position 383
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "core",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@openzeppelin/contracts": "^2.5.1",
+      "truffle-hdwallet-provider-privkey": "^1.0.3",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
